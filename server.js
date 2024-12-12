@@ -7,7 +7,7 @@ const app = express()
 app.get('/', (req, res) => {
     res.json({
         status: 200,
-        message: "hello world welcome to test page"
+        message: "hello world welcome to test"
     })
 })
 
